@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10%; font-size: 1.2rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: karla, serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  padding: 20px;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+#card {
+  height: 700px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+  border-radius: 5px;
+}
+
+#top-section, #bottom-section, #price-container {
+  display: flex;
+}
+
+#top-section {
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 35%;
+}
+
+#bottom-section {
+  flex-direction: column;
+  padding-top: 20px;
+  height: 65%;
+}
+
+#bottom-left-section {
+  background-color: hsl(179, 62%, 43%);
+  flex: 1;
+  padding: 20px;
+}
+
+#bottom-right-section {
+  background-color: hsl(179, 62%, 43%);
+  opacity: .8;
+  flex: 1;
+  padding: 20px;
+}
+
+#join-us-heading {
+  color: hsl(179, 62%, 43%);
+}
+
+#money-back-guranteed {
+  color: hsl(71, 73%, 54%);
+}
+
+#subscription-benefits-desc {
+  color: hsl(218, 22%, 67%);
+  opacity: .8;
+  line-height: 30px;
+}
+
+#subscription-heading {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+#price-container {
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+#price {
+  font-size: 1.9rem;
+  color: white;
+}
+
+#price-frequency {
+  color: white;
+  opacity: .5;
+}
+
+#access-offer {
+  color: white;
+  opacity: .7;
+  margin-bottom: 30px;
+}
+
+#sign-up-button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-weight: 700;
+  border-radius: 7px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, .3);
+  cursor: pointer;
+  transition: background-color .2s linear;
+}
+
+#sign-up-button:hover {
+  background-color: rgba(192, 223, 52, .8);
+}
+
+#why-us-heading {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#why-us-reasons {
+  color: hsl(204, 43%, 93%);
+  list-style: none;
+  padding: 0;
+  line-height: 20px;
+  font-size: .6 rem;
+  opacity: .7;
+}
+
+
+@media (min-width: 576px) {
+  #card {
+    margin: 0 auto;
+    width: 600px;
+    height: 440px;
+  }
+
+  #top-section {
+    height: 45%;
+  }
+
+  #bottom-section {
+    flex-direction: row;
+    height: 55%;
+  }
+} 
